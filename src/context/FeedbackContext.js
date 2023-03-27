@@ -16,7 +16,7 @@ export const FeedbackProvider = ({children}) => {
     }, []);
 
     const fetchFeedback = async () => {
-        const response = await fetch('https://my-json-server.typicode.com/666blessed/backend-for-feedback-app/feedback/');
+        const response = await fetch('https://my-json-server.typicode.com/katkovkyrylo/backend-for-feedback-app/feedback/');
         const data = await response.json();
         
         setFeedback(data);
@@ -24,7 +24,7 @@ export const FeedbackProvider = ({children}) => {
     }
 
     const addFeedback = async (newFeedback) => {
-        const response = await fetch('https://my-json-server.typicode.com/666blessed/backend-for-feedback-app/feedback/', {
+        const response = await fetch('https://my-json-server.typicode.com/katkovkyrylo/backend-for-feedback-app/feedback/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
