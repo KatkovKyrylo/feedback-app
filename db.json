@@ -1,0 +1,24 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 8,
+      "text": "I like the service!"
+    },
+    {
+      "id": 2,
+      "rating": 3,
+      "text": "Pretty good. Would use again:)"
+    },
+    {
+      "text": "Did not exactly meet my expectations, but still totally decent.",
+      "rating": 9,
+      "id": 4
+    },
+    {
+      "text": "Everything is awesome!",
+      "rating": 7,
+      "id": 5
+    }
+  ]
+}
